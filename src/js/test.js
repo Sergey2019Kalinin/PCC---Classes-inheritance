@@ -119,8 +119,8 @@ test("правильность заполнения объекта класса 
 		type: "Daemon",
 		health: 100,
 		level: 1,
-		attack: 10,
-		defence: 40,
+		attack: 25,
+		defence: 25,
 	}
 	const received = new Daemon (input1, input2);
 
@@ -137,8 +137,8 @@ test("правильность заполнения объекта класса 
 		type: "Undead",
 		health: 100,
 		level: 1,
-		attack: 10,
-		defence: 40,
+		attack: 40,
+		defence: 10,
 	}
 	const received = new Undead (input1, input2);
 

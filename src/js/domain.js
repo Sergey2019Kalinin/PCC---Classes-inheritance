@@ -1,7 +1,3 @@
-export default Character;
-
-export { Bowerman, Swordsman, Magician, Daemon, Undead, Zombie };
-
 class Character {
   constructor(name, type) {
     let characters = [
@@ -28,6 +24,8 @@ class Character {
     }
   }
 }
+
+export default Character;
 
 class Bowerman extends Character {
   constructor(name, type) {
@@ -88,3 +86,5 @@ class Zombie extends Character {
     this.defence = 40;
   }
 }
+
+export { Bowerman, Swordsman, Magician, Daemon, Undead, Zombie };
